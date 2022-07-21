@@ -1,5 +1,5 @@
 import "./App.css";
-import CurrentApp from "./sections/useEffectBasic";
+import CurrentApp from "./sections/useEffectCleanup";
 
 function App() {
   return (
