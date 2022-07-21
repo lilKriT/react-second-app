@@ -1,5 +1,5 @@
 import "./App.css";
-import CurrentApp from "./sections/ShortCircuit";
+import CurrentApp from "./sections/ShowHide";
 
 function App() {
   return (
