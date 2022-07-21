@@ -1,5 +1,5 @@
 import "./App.css";
-import CurrentApp from "./sections/useStateObject";
+import CurrentApp from "./sections/useStateCounter";
 
 function App() {
   return (
