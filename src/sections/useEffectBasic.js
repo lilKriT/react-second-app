@@ -6,7 +6,9 @@ const useEffectBasic = () => {
 
   useEffect(() => {
     console.log("use effect");
-    document.title = `New Messages: ${value}`;
+    if (value > 1) {
+      document.title = `New Messages: ${value}`;
+    }
   });
 
   return (
