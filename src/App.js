@@ -1,5 +1,5 @@
 import "./App.css";
-import CurrentApp from "./sections/useEffectCleanup";
+import CurrentApp from "./sections/useEffectFetch";
 
 function App() {
   return (
