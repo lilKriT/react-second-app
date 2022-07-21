@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
+import { useState } from "react";
 
 const useStateObject = () => {
   const [person, setPerson] = useState({
@@ -7,7 +8,20 @@ const useStateObject = () => {
     message: "random message",
   });
 
-  return <h2>useStateObject</h2>;
+  const changeMessage = () => {
+    setPerson({ ...person, message: "abc" });
+  };
+
+  return (
+    <>
+      <h3>{person.name}</h3>
+      <h3>{person.age}</h3>
+      <h3>{person.message}</h3>
+      <button className="btn" onClick={changeMessage}>
+        Change message
+      </button>
+    </>
+  );
 };
 
 export default useStateObject;
