@@ -1,5 +1,5 @@
 import "./App.css";
-import CurrentApp from "./sections/UseRefBasics";
+import CurrentApp from "./sections/useReducer";
 
 function App() {
   return (
