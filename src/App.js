@@ -1,5 +1,5 @@
 import "./App.css";
-import CurrentApp from "./sections/MultipleInputs";
+import CurrentApp from "./sections/UseRefBasics";
 
 function App() {
   return (
