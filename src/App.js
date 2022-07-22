@@ -1,5 +1,5 @@
 import "./App.css";
-import CurrentApp from "./sections/ShowHide";
+import CurrentApp from "./sections/ControlledInputs";
 
 function App() {
   return (
