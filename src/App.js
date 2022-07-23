@@ -1,5 +1,5 @@
 import "./App.css";
-import CurrentApp from "./sections/PropDrilling";
+import CurrentApp from "./sections/ContextAPI";
 
 function App() {
   return (
