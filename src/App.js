@@ -1,5 +1,5 @@
 import "./App.css";
-import CurrentApp from "./sections/useReducer";
+import CurrentApp from "./sections/PropDrilling";
 
 function App() {
   return (
