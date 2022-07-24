@@ -1,5 +1,5 @@
 import "./App.css";
-import CurrentApp from "./sections/proptypes";
+import CurrentApp from "./sections/react-router";
 
 function App() {
   return (
