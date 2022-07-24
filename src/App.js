@@ -1,5 +1,5 @@
 import "./App.css";
-import CurrentApp from "./sections/FetchExample";
+import CurrentApp from "./sections/proptypes";
 
 function App() {
   return (
