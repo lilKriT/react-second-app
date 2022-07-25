@@ -1,5 +1,5 @@
 import "./App.css";
-import CurrentApp from "./sections/react-router";
+import CurrentApp from "./sections/MemoBasic";
 
 function App() {
   return (
