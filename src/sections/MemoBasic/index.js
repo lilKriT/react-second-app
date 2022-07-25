@@ -20,7 +20,7 @@ const Index = () => {
   );
 };
 
-const BigList = ({ products }) => {
+const BigList = React.memo(({ products }) => {
   return (
     <section className="products">
       {products.map((product) => {
@@ -28,7 +28,7 @@ const BigList = ({ products }) => {
       })}
     </section>
   );
-};
+});
 
 const SingleProduct = ({ fields }) => {
   let { name, price } = fields;
